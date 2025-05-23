@@ -4,7 +4,7 @@ pipeline{
         credentialsIdGCP = "lbg-mea-leaders-instructor-dc-credentials"
         namespace = "instructor-dc"
         // e.g. lbg-1 for learner1, lbg-2 for learner2
-        projectId= "lbg-mea-leaders-instructor-dc"
+        projectId= "lbgmealeadersc29"
         
         imageName = "vatcalc"
         registry = "${dockerUserName}/${imageName}"
