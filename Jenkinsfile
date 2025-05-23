@@ -2,7 +2,7 @@ pipeline{
  environment {
         dockerUserName="canyontrek"
         credentialsIdGCP = "lbg-mea-leaders-instructor-dc-credentials"
-        namespace = "lbg-dc"
+        namespace = "lbg-14"
         // e.g. lbg-1 for learner1, lbg-2 for learner2
         projectId= "lbgmealeadersc29"
         
